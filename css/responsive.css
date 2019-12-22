@@ -86,6 +86,14 @@
         padding-bottom: 20px;
     }
     
+    .value-container {
+        flex-direction: column;
+    }
+    
+    .centre-text-2 {
+        padding: 0px 25x;
+        
+    }
     
     
 /*------ OUR SERVICES ------*/
