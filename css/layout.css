@@ -384,31 +384,35 @@
 .our-services {
     position: relative;
     display: flex;
+    flex-direction: column;
 }
 
-.our-services-background {
-    width: 50%;
+.our-services-container {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    flex-direction: row;
 }
 
 .laptop {
-    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
-.our-services-right {
+.laptop img {
+    width: 400px;
+}
+
+.services-info {
+    padding: 100px 100px 0px 100px;
     width: 50%;
-    position: relative;
+}
+
+#services-info-last {
     padding-bottom: 100px;
 }
 
-.our-services-info {
-    padding: 100px 100px 0px 100px;
-}
-
-.our-services-info h2 {
+.services-info h2 {
     padding: 20px 0px;
 }
 

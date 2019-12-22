@@ -13,3 +13,4 @@ $(window).scroll(function () {
         $('.navbar').css('background','transparent');
     }
 });
+

@@ -75,7 +75,7 @@
     }
     
     .team-member-card {
-        padding: 50px 20px; 
+        padding: 50px 20px 0px 20px; 
     }
     
     .team-title {
@@ -90,13 +90,38 @@
         flex-direction: column;
     }
     
-    .centre-text-2 {
-        padding: 0px 25x;
-        
+    .centre-title-2 {
+        padding: 50px;
     }
     
     
 /*------ OUR SERVICES ------*/
+    
+    .our-services-container {
+        flex-direction: column;
+    }
+    
+    .laptop {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .services-info {
+        padding: 50px 50px 0px 50px;
+        width: 100%;
+    }
+    
+    
+    .laptop img {
+        width: 250px; 
+    }
+    
+ 
+    
+    .our-services-info {
+        padding: 50px 50px 0px 50px;
+    }
+
 
 /*------ NEW PAGE ------*/
     

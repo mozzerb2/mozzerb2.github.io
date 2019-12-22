@@ -299,14 +299,6 @@ a:hover {
     z-index: -2;
 }
 
-.our-services-background {
-    background-image: url('../images/services/laptop.svg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #services-background {
     background-image: url(../images/background/services-background.jpg);
     background-position: center;
@@ -331,9 +323,9 @@ a:hover {
 
 .services-body,
 .news-body {
-    background-color: #021044;
+    background-color: #02003F;
 }
-.our-services-right {
+.services-info {
     background-color: #FFFFFF;
 }
 
@@ -373,7 +365,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.our-services-right hr {
+.services-info hr {
     width: 100%;
     border: 0.5px solid #585858;
     margin-top: 70px;
