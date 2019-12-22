@@ -1,0 +1,384 @@
+/*------ GENERAL ------*/
+
+* {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #585858;
+}
+
+h1 {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  32px;
+    color: #FFFFFF;
+}
+
+.h2-blue {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  32px;
+    color: #0000B2;
+}
+
+.h2-black {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  32px;
+    color: #000000;
+}
+
+h3 {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  24px;
+    color: #FFFFFF;
+}
+
+.h3-black {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  24px;
+    color: #000000;
+}
+
+
+h4 {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  16px;
+    color: #000000;
+}
+
+.h5-blue {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size:  16px;
+    color: #0000B2;
+}
+
+.h5-green {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #00CAA7;
+}
+
+.h5-green-bold {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00CAA7;
+}
+
+p {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.p-blue {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #0000B2;
+}
+
+
+.p-grey {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #585858;
+}
+
+.p-small {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+a {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #0000B2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00CAA7;
+}
+
+.contact-mail {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+
+.contact-mail:hover {
+    color: #00CAA7;
+    
+}
+
+.green-a {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #00CAA7;
+    text-decoration: none;
+}
+
+.green-a:hover {
+    color: #000000;
+}
+
+
+/*------ BUTTONS ------*/
+
+.discover-button {
+    display: inline-block;
+    background-color: #00CAA7;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3em;
+}
+
+.discover-button:hover {
+    background-color: #FFFFFF;
+    color: #00CAA7;
+    text-decoration: none
+}
+
+.get-in-touch {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #00CAA7;
+    border: 3px solid #00CAA7;
+    border-radius: 0.3em;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch:hover{
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+/*------ NAVBAR ------*/
+
+.nav-links a {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-links .active {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #00CAA7;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #00CAA7;
+    text-decoration: none;
+}
+
+.navbar-scroll-colour {
+    background-color: #02003F;
+    opacity: 0.7em;
+}
+
+/*------ BURGER NAVBAR ------*/
+
+
+.burger-menu {
+    color: #FFFFFF;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+.burger-menu:hover {
+    color: #00CAA7;
+}
+
+.navbar-mobile .closebtn {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.navbar-mobile .closebtn:hover {
+    color: #FFFFFF;
+}
+
+.navbar-mobile {
+    background-color: #00CAA7;
+}
+
+.navbar-mobile li .active {
+    color: #0000B2;
+}
+
+.navbar-mobile li a {
+    font-size: 32px;
+    color: #FFFFFF;
+    overflow: hidden
+}
+
+
+/*------ FOOTER ------*/
+
+.footer {
+    background-color: #FFFFFF !important;
+}
+
+.footer-line {
+    border: 0.5px solid #0000B2;
+    margin: 0px 3%;
+}
+
+.p-small-blue {
+    font-family: ‘Roboto’, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #0000B2;
+}
+
+
+/*------ BACKGROUND ------*/
+
+#homepage-background {
+    background-image: url(../images/background/homepage-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-background {
+    background-image: url(../images/background/about-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.our-services-background {
+    background-image: url('../images/services/laptop.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services-background {
+    background-image: url(../images/background/services-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#news-background {
+    background-image: url(../images/background/news-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-welcome {
+    background-image: url(../images/background/contact-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-body,
+.news-body {
+    background-color: #021044;
+}
+.our-services-right {
+    background-color: #FFFFFF;
+}
+
+/*------ OTHER ------*/
+
+.video-overlay {
+    background-color: #02003F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.home-box {
+    border-left: 5px dashed #00CAA7;
+}
+
+.bullet-point {
+  width: 70px;
+}
+
+.service-card {
+    background-color: #FFFFFF;
+}
+
+.value-card {
+    background-color: #FFFFFF;
+}
+
+.value-card:hover {
+    background-color: #00CAA7;
+}
+
+.team-member-card-overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.our-services-right hr {
+    width: 100%;
+    border: 0.5px solid #585858;
+    margin-top: 70px;
+}
+
+.news-box {
+    background-color: #FFFFFF;
+}

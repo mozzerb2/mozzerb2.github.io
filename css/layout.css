@@ -1,0 +1,495 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*------ NAVBAR ------*/
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3% 10px 3%; 
+    margin: 0px;
+    z-index: 3;
+}
+
+.navbar img {
+    width: 200px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+
+/*------ BURGER NAVBAR ------*/
+
+.burger-menu {
+    padding: 12px 20px;
+    position: fixed;
+    top: 0;
+    right:0;
+    z-index: 3;
+}
+
+.navbar-mobile .closebtn {
+    padding: 8px 20px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    right: 0;
+    z-index: 4;
+}
+
+
+.navbar-mobile {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+.navbar-mobile .burger-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-mobile .burger-links li{
+    padding: 3%;
+    list-style: none;
+}
+
+.navbar-mobile li a {
+    display: block;
+    transition: 0.3s;
+}
+
+/*------ FOOTER ------*/
+
+.footer {
+    width: 100%;
+}
+
+.footer-container {
+    padding: 3% 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a{
+    padding-top: 10px;
+}
+
+.footer-column .logo {
+    width: 150px;
+    padding-top: 25px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3%;
+}
+
+.social-media {
+    padding-top: 10px;
+}
+
+.social-media img{
+    width: 30px;
+}
+
+.social-media a{
+    position: relative;
+}
+
+.social-media a .social-hover {
+    display: none;
+    position: absolute;
+    width: 30px;
+    top: 10;
+    left: 0;
+    z-index: 99;
+}
+
+.social-media a:hover .social-hover {
+    display: inline;
+}
+
+.p-small-blue {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*------ HOME WELCOME ------*/
+
+.fullscreen-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -99;
+}
+
+.home-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-welcome-left {
+    position: relative;
+    display: flex;
+    align-content: center;
+    padding: 50px;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.centre-title {
+    margin: 50;
+    min-height: 80vh;
+    padding: 60px 25px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centre-title h1 {
+    max-width: 700px;
+    text-align: center;
+}
+
+.centre-title p {
+    max-width: 700px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.left-title {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-title p {
+    padding-top: 30px;
+    max-width: 600px;
+}
+
+/*------ HOME BODY ------*/
+
+.home-box {
+    margin: 0px 10%;
+    overflow: visible;
+    height: 100%;
+}
+
+.home-container {
+    padding: 100px 0px;
+}
+
+.home-container-small {
+    padding: 50px 0px;
+}
+
+.bullet-title {
+    display: flex;
+    align-items: center;
+    margin-left: -37px;
+    overflow: visible;
+}
+
+.bullet-title p {
+    padding-left: 30px;
+}
+
+.home-description {
+    max-width: 600px;
+    margin: 0px 100px 0px 100px;
+}
+
+.home-description-small {
+    max-width: 600px;
+    margin: 0px 100px 25px 100px;
+}
+
+.service-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+    margin-left: 100px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 0.25em;
+    margin: 10px 20px 10px 0px;
+}
+
+.service-card h5 {
+    padding: 10px 0px;
+}
+
+.service-card img {
+    width: 50px;
+}
+
+.homepage-discover {
+    margin-left: 100px;
+}
+
+
+/*------ ABOUT PAGE ------*/
+
+.centre-text-2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.centre-title-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+.centre-title-2 h1{
+    padding-bottom: 30px;
+}
+
+.value-container {
+    display: flex;
+}
+
+.value-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 0.25em;
+    margin: 10px 20px 10px 0px;
+}
+
+.value-card h5 {
+    padding: 10px 0px;
+}
+
+.team-cards {
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.team-member-card {
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member-card img {
+    width: 200px;
+    border-radius: 0.3em;
+    z-index: 1;
+}
+
+.team-member-card-overlay {
+    width: 200px;
+    height: 70px;;
+    border-radius: 0 0 0.3em 0.3em;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+    top: 180px;
+}
+
+.team-member-card-overlay h5 {
+    padding-bottom: 10px;
+}
+
+.get-in-touch {
+    margin: 30px 0px;
+}
+
+/*------ SERVICES PAGE ------*/
+
+
+.our-services {
+    position: relative;
+    display: flex;
+}
+
+.our-services-background {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.laptop {
+    width: 500px;
+}
+
+.our-services-right {
+    width: 50%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.our-services-info {
+    padding: 100px 100px 0px 100px;
+}
+
+.our-services-info h2 {
+    padding: 20px 0px;
+}
+
+.service-bullet {
+    width: 40px;
+}
+
+/*------ NEWS PAGE ------*/
+
+.news-container {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-box {
+    display: flex;
+    padding: 10px;
+    margin: 25px;
+}
+
+.news-box {
+    width: 600px;
+}
+
+.news-box img {
+    width: 200px;
+}
+
+.news-details {
+    padding-left: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/*------ CONTACT US ------*/
+
+.contact-welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+    padding: 50px;
+}
+
+.contact-centre-title {
+    padding: 50px 25px 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-centre-title p{
+    padding-top: 10px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center
+}
+
+.contact-details {
+    padding: 15px 80px;
+}
+
+.contact-mail {
+    display: block;
+    padding: 5px 0px;
+}
+
+
+.contact-container {
+    padding-bottom: 20px;
+}
+
+.h5-green-bold {
+    padding-bottom: 5px;
+}

@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cryptosphira</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="/images/fav.png"/> <!-- FAVICON IMAGE -->   
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://kit.fontawesome.com/450bb14c76.js" crossorigin="anonymous"></script>
+
+    </head>
+    
+<!-- HOMEPAGE BODY -->
+    
+    <body id="homepage-background">
+        <div class="fullscreen-video">
+            <video loop muted autoplay poster="/images/background/homepage-background.jpg" class="background-video" id="backgroundVideo">
+                <source src="/images/background/homepage-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+            
+<!-- NAVBAR  -->
+        
+        <nav class="navbar">
+            <a href="index.html"><img src="images/logo-white.svg" alt="Cryptosyphira Logo"></a>
+            <ul class="nav-links">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/services.html">Services</a></li>
+                <li><a href="/html/news.html">News</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+            
+<!-- BURGER NAVBAR  -->  
+        
+        <span class="burger-menu" onclick="openNav()">&#9776;</span>
+        <nav id="navbar-side" class="navbar-mobile">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="burger-links">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="/html/about.html">About</a></li>
+                <li><a href="/html/services.html">Services</a></li>
+                <li><a href="/html/news.html">News</a></li>
+                <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+<!-- WELCOME -->
+        
+        <section class="home-welcome">
+            <div class="centre-title">
+                <h1>Providing professional services for blockchains and digital assets</h1>
+                <p>Our mission is to realise decentralisation by contributing to the disruption, growth, and advancement of technology in the crypto-sphere</p>
+            </div>
+        </section>
+        
+<!-- MIDDLE SECTION -->
+        
+        <section class="home">
+            <div class="home-box">
+                
+<!-- SERVICES -->
+
+                <div class="bullet-title">
+                    <img class="bullet-point" src="images/homepage/bullet-point.svg">
+                    <p class="h5-green">Services</p>
+                </div>
+                <div class="home-container">
+                    <div class="home-description">
+                        <h2>What can we offer?</h2>
+                        <br>
+                        <p>Exclusively focused on blockchain technologies and digital assets, our multidisciplinary team has extensive experience in providing services across three key domains: Software as a Service, Cyber Security &amp; Privacy, and Data Science.</p>
+                    </div>
+                        <div class="service-container">
+                            <div class="service-card">
+                                <img src="images/homepage/stochastic-control-icon.svg">
+                                <h5>Software as a service</h5>
+                                <p class="p-grey">Employ our premier trading algorithms on the crypto market with your capital.</p>
+                            </div>
+                            <div class="service-card">
+                                <img src="images/homepage/cyber-security-icon.svg">
+                                <h5>Cyber security &amp; privacy</h5>
+                                <p class="p-grey">Secure your digital assets and ensure your data is appropriately protected.</p>
+                            </div> 
+                            <div class="service-card">
+                                <img src="images/homepage/data-science-icon.svg">
+                                <h5>Data science</h5>
+                                <p class="p-grey">Utilise our experienced team of data scientists to solve your problems using the latest technologies and advanced statistics.</p>
+                            </div> 
+                        </div>
+                        <a class="homepage-discover" href="/html/services.html"><div class="discover-button">Discover more →</div></a>
+                    </div>
+          
+    <!-- ABOUT -->
+
+                <div class="bullet-title">
+                    <img class="bullet-point" src="images/homepage/bullet-point.svg">
+                    <p class="h5-green">About</p>
+                </div>
+                <div class="home-container">
+                    <div class="home-description">
+                        <h2>We’re revolutionising the way people view the crypto-sphere</h2>
+                        <br>
+                        <p>Within the next few years, we firmly envisage blockchains and digital currencies having a managed and regulated role in the global economy, which will be achieved by removing intermediaries. Founded in 2019, Cryptosphira is a technology company with a focus on providing professional services for blockhain and digital assets. We strongly believe that valuing security and privacy are paramount to achieving a successful decentralised ecosystem and we will not forsake them in our service ambition.</p>
+                        <br>
+                        <a href="/html/about.html"><div class="discover-button">Discover more →</div></a>
+                    </div>    
+                </div>
+                
+    <!-- DISCLAIMER -->
+                
+                <div class="home-container-small">
+                    <div class="home-description-small">
+                        <p class="p-small">* The materials on this website are for illustration and discussion purposes only. Any historical performance data represents past performance. Past performance does not guarantee future results. All capital is invested at your own risk. Capital must be invested with care as you may end up losing your initial investment (as well as your loved ones).</p>
+                    </div>
+                </div>
+                
+            </div>    
+        </section>
+
+<!-- FOOTER -->
+        
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h2 class="h2-blue">Prosper through</h2>
+                    <h2 class="h2-blue">decentralisation.</h2>
+                    <a href="index.html"><img class="logo" src="/images/logo-colour.svg" alt="Cryptosphira Logo"></a>
+                </div>
+                <div class="footer-column">
+                    <h5 class="h5-blue">Company</h5>
+                    <a href="/html/about.html">About</a>
+                    <a href="/html/services.html">Services</a>
+                </div>
+                <div class="footer-column">
+                    <h5 class="h5-blue">Information</h5>
+                    <a href="/html/news.html">News</a>
+                    <a href="/html/contact.html">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h5 class="h5-blue">Follow us</h5>
+                    <div class="social-media">
+                        <a href="" target="_blank">
+                            <img src="images/footer/linkedin.svg" alt="social-linkedin-blue">
+                            <img src="images/footer/linkedin-green.svg" class="social-hover" alt="social-linkedin-green">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="images/footer/medium.svg" alt="social-medium-blue">
+                            <img src="images/footer/medium-green.svg" class="social-hover" alt="social-medium-green">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="images/footer/twitter.svg" alt="social-twitter-blue">
+                            <img src="images/footer/twitter-green.svg" class="social-hover" alt="social-twitter-green">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="images/footer/facebook.svg" alt="social-facebook-blue">
+                            <img src="images/footer/facebook-green.svg" class="social-hover" alt="social-facebook-green">
+                        </a>
+                        <a href="" target="_blank">
+                            <img src="images/footer/telegram.svg" alt="social-telegram-blue">
+                            <img src="images/footer/telegram-green.svg" class="social-hover" alt="social-telegram-green">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-bottom">
+                <p class="p-small-blue">Website Designed and Created by Mia Baker.</p>
+                <p class="p-small-blue">© 2019 Cryptosyphira. All Rights Reserved.</p> 
+            </div>
+        </footer>
+        
+<!-- END -->        
+        
+    </body>
+</html>
+
