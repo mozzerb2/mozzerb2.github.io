@@ -8,7 +8,7 @@ function closeNav() {
 
 $(window).scroll(function () {
     if ($(window).scrollTop() >= 60) {
-        $('.navbar').css('background','#02003F');
+        $('.navbar').css('background','rgba(2,0,63,0.7)');
     } else {
         $('.navbar').css('background','transparent');
     }
