@@ -169,6 +169,19 @@
         padding: 0px 30px;
     }
     
+    #h5-green-bold-larger {
+        font-size: 20px;
+    }
+
+    #contact-details-a {
+        font-size: 18px;
+    }
+    
+    .contact-details {
+    padding: 15px 0px;
+}
+
+    
 /*------ FOOTER ------*/
     
     .footer-container {
@@ -220,7 +233,7 @@
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('/images/background/homepage-background.jpg') center center / cover no-repeat;
+    background: url('../images/background/homepage-background.jpg') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
